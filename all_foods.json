@@ -1,0 +1,3092 @@
+{
+  "categories": {
+    "1": {
+      "name": "Fresh fruit (A-N)"
+    },
+    "2": {
+      "name": "Fresh fruit (O-W)"
+    },
+    "3": {
+      "name": "Processed fruit"
+    },
+    "4": {
+      "name": "Dairy"
+    },
+    "5": {
+      "name": "Plant-based dairy alternatives"
+    },
+    "6": {
+      "name": "Nuts & Seeds"
+    },
+    "7": {
+      "name": "Vegetarian substitutes"
+    },
+    "8": {
+      "name": "Pulses & Legumes"
+    },
+    "9": {
+      "name": "Sugars & Sweeteners"
+    },
+    "10": {
+      "name": "Fresh Vegetables (A-E)"
+    },
+    "11": {
+      "name": "Fresh Vegetables (U-Z)"
+    },
+    "12": {
+      "name": "Fresh Vegetables (F-T)"
+    },
+    "13": {
+      "name": "Fresh Vegetables (U-Z)"
+    },
+    "14": {
+      "name": "Processed Vegetables"
+    },
+    "15": {
+      "name": "Tea"
+    },
+    "16": {
+      "name": "Alcohol"
+    },
+    "17": {
+      "name": "Coffee"
+    },
+    "18": {
+      "name": "Drink Powders"
+    },
+    "19": {
+      "name": "Cordial"
+    },
+    "20": {
+      "name": "Juices"
+    },
+    "21": {
+      "name": "Cereals"
+    },
+    "22": {
+      "name": "Grains"
+    },
+    "23": {
+      "name": "Flours"
+    }
+  },
+  "foods": [
+    {
+      "id": 10000,
+      "name": "Banana, common, firm",
+      "color": "g",
+      "maximumIntakeInGramms": 100,
+      "categoryId": 1
+    },
+    {
+      "id": 10001,
+      "name": "Banana, sugar, firm",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10002,
+      "name": "Breadfruit",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10003,
+      "name": "Carambola",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10004,
+      "name": "Clementine",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10005,
+      "name": "Dragon fruit",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10006,
+      "name": "Durian",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10007,
+      "name": "Grape, thompson",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10008,
+      "name": "Grapes, black muscatel",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10009,
+      "name": "Grapes, ralli seedless",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10010,
+      "name": "Red grapes",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10011,
+      "name": "Grapes, red globe",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10012,
+      "name": "Guava, ripe",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10013,
+      "name": "Kiwi, gold",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10014,
+      "name": "Lemon, juice",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10015,
+      "name": "Lime, juice",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10016,
+      "name": "Mandarin, imperial",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10017,
+      "name": "Mangosteen",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10018,
+      "name": "Apple, granny smith",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10019,
+      "name": "Apple, granny smith, peeled",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10020,
+      "name": "Apple, pink lady",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10021,
+      "name": "Apple, pink lady, peeled",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10022,
+      "name": "Apricot",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10023,
+      "name": "Blackberry",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10024,
+      "name": "Boysenberry",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10025,
+      "name": "Cherries",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10026,
+      "name": "Custard apple",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10027,
+      "name": "Feijoa",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10028,
+      "name": "Figs, fresh",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10029,
+      "name": "Grapefruit",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10030,
+      "name": "Guava, immature",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10031,
+      "name": "Lychee",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10032,
+      "name": "Mango",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10033,
+      "name": "Nectarine",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 1
+    },
+    {
+      "id": 10034,
+      "name": "Avocado",
+      "color": "y",
+      "maximumIntakeInGramms": 20,
+      "categoryId": 1
+    },
+    {
+      "id": 10035,
+      "name": "Banana, common, ripe",
+      "color": "y",
+      "maximumIntakeInGramms": 33,
+      "categoryId": 1
+    },
+    {
+      "id": 10036,
+      "name": "Banana, sugar, ripe",
+      "color": "y",
+      "maximumIntakeInGramms": 56,
+      "categoryId": 1
+    },
+    {
+      "id": 10037,
+      "name": "Blueberry",
+      "color": "y",
+      "maximumIntakeInGramms": 28,
+      "categoryId": 1
+    },
+    {
+      "id": 10038,
+      "name": "Cantaloupe",
+      "color": "y",
+      "maximumIntakeInGramms": 90,
+      "categoryId": 1
+    },
+    {
+      "id": 10039,
+      "name": "Coconut",
+      "color": "y",
+      "maximumIntakeInGramms": 48,
+      "categoryId": 1
+    },
+    {
+      "id": 10040,
+      "name": "Cumquats",
+      "color": "y",
+      "maximumIntakeInGramms": 88,
+      "categoryId": 1
+    },
+    {
+      "id": 10041,
+      "name": "Cumquats, peeled",
+      "color": "y",
+      "maximumIntakeInGramms": 78,
+      "categoryId": 1
+    },
+    {
+      "id": 10042,
+      "name": "Kiwi fruit, green",
+      "color": "y",
+      "maximumIntakeInGramms": 150,
+      "categoryId": 1
+    },
+    {
+      "id": 10043,
+      "name": "Longan",
+      "color": "y",
+      "maximumIntakeInGramms": 15,
+      "categoryId": 1
+    },
+    {
+      "id": 10044,
+      "name": "Melon, honeydew",
+      "color": "y",
+      "maximumIntakeInGramms": 90,
+      "categoryId": 1
+    },
+    {
+      "id": 10045,
+      "name": "Orange, navel",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10046,
+      "name": "Paw paw",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10047,
+      "name": "Pear, prickly",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10048,
+      "name": "Plaintain, peeled",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10049,
+      "name": "Rhubarb",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10050,
+      "name": "Starfruit",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10051,
+      "name": "Strawberry",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10052,
+      "name": "Pfirsich clingstone",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10053,
+      "name": "Peach, white",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10054,
+      "name": "Peach, yellow",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10055,
+      "name": "Pear, nashi",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10056,
+      "name": "Pear, packham, firm, peeled",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10057,
+      "name": "Pear, packham, ripe, peeled",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10058,
+      "name": "Persimmon",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10059,
+      "name": "Plum, black diamon",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10060,
+      "name": "Tamarillo",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10061,
+      "name": "Watermelon, seedless",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 2
+    },
+    {
+      "id": 10062,
+      "name": "Passionfruit",
+      "color": "y",
+      "maximumIntakeInGramms": 23,
+      "categoryId": 2
+    },
+    {
+      "id": 10063,
+      "name": "Pineapple",
+      "color": "y",
+      "maximumIntakeInGramms": 140,
+      "categoryId": 2
+    },
+    {
+      "id": 10064,
+      "name": "Pomegranate",
+      "color": "y",
+      "maximumIntakeInGramms": 38,
+      "categoryId": 2
+    },
+    {
+      "id": 10065,
+      "name": "Rambutan",
+      "color": "y",
+      "maximumIntakeInGramms": 31,
+      "categoryId": 2
+    },
+    {
+      "id": 10066,
+      "name": "Raspberry",
+      "color": "y",
+      "maximumIntakeInGramms": 45,
+      "categoryId": 2
+    },
+    {
+      "id": 10067,
+      "name": "Tamarind",
+      "color": "y",
+      "maximumIntakeInGramms": 8,
+      "categoryId": 2
+    },
+    {
+      "id": 10068,
+      "name": "Apple, dried",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 10069,
+      "name": "Apricots, dried",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 10070,
+      "name": "Dates",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 10071,
+      "name": "Figs, dried",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 10072,
+      "name": "Goji berries, dried",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 10073,
+      "name": "Jackfruit, freeze dried",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 10074,
+      "name": "Mango, dried",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 10075,
+      "name": "Mangosteen, freeze-dried",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 10076,
+      "name": "Pear, dried",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 10077,
+      "name": "Pineapple, dried",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 10078,
+      "name": "Prunes",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 10079,
+      "name": "Sultanas",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 3
+    },
+    {
+      "id": 10080,
+      "name": "Ackee, tinned in brine",
+      "color": "y",
+      "maximumIntakeInGramms": 270,
+      "categoryId": 3
+    },
+    {
+      "id": 10081,
+      "name": "Banana, dried",
+      "color": "y",
+      "maximumIntakeInGramms": 20,
+      "categoryId": 3
+    },
+    {
+      "id": 10082,
+      "name": "Coconut rasps, dried",
+      "color": "y",
+      "maximumIntakeInGramms": 18,
+      "categoryId": 3
+    },
+    {
+      "id": 10083,
+      "name": "Cranberries, dried",
+      "color": "y",
+      "maximumIntakeInGramms": 13,
+      "categoryId": 3
+    },
+    {
+      "id": 10084,
+      "name": "Currants",
+      "color": "y",
+      "maximumIntakeInGramms": 13,
+      "categoryId": 3
+    },
+    {
+      "id": 10085,
+      "name": "Guava, tinned in syrup",
+      "color": "y",
+      "maximumIntakeInGramms": 27,
+      "categoryId": 3
+    },
+    {
+      "id": 10086,
+      "name": "Paw paw, dried",
+      "color": "y",
+      "maximumIntakeInGramms": 5,
+      "categoryId": 3
+    },
+    {
+      "id": 10087,
+      "name": "Raisins",
+      "color": "y",
+      "maximumIntakeInGramms": 13,
+      "categoryId": 3
+    },
+    {
+      "id": 10088,
+      "name": "Camembert cheese",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10089,
+      "name": "Cheese, cheddar",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10090,
+      "name": "Cheese, colby style",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10091,
+      "name": "Cheese, cottage, creamed",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10092,
+      "name": "Feta",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10093,
+      "name": "Cheese, goat, chevre, plain",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10094,
+      "name": "Cheese, havarti",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10095,
+      "name": "Mozzarella",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10096,
+      "name": "Cheese, pecorino style",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10097,
+      "name": "Cheese, soft, white mould coated, brie / camembert",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10098,
+      "name": "Cheese, swiss",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10099,
+      "name": "Cream, whipped",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10100,
+      "name": "Goat's milk, yoghurt",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10101,
+      "name": "Milk, lactose free",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10102,
+      "name": "Yoghurt, lactose free",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10103,
+      "name": "Buttermilk",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10104,
+      "name": "Cheese, cream",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10105,
+      "name": "Cream, pure, regular fat",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10106,
+      "name": "Cream, sour",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10107,
+      "name": "Cream, thickened, regular fat",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10108,
+      "name": "Custard",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10109,
+      "name": "Ice-cream, vanilla",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10110,
+      "name": "Kefir",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10111,
+      "name": "Milk, a2",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10112,
+      "name": "Milk, evaporated",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10113,
+      "name": "Milk, full cream, cow",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10114,
+      "name": "Milk, full cream, goat",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10115,
+      "name": "Milk, reduced fat, cow",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10116,
+      "name": "Milk, skim, cow",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10117,
+      "name": "Milk, sweetened, condensed",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10118,
+      "name": "Yoghurt, natural, indian",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10119,
+      "name": "Yoghurt, natural, low fat",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10120,
+      "name": "Yoghurt, natural, regular fat",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 4
+    },
+    {
+      "id": 10121,
+      "name": "Cheese, haloumi",
+      "color": "y",
+      "maximumIntakeInGramms": 50,
+      "categoryId": 4
+    },
+    {
+      "id": 10122,
+      "name": "Ricotta",
+      "color": "y",
+      "maximumIntakeInGramms": 40,
+      "categoryId": 4
+    },
+    {
+      "id": 10123,
+      "name": "Almond milk",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 5
+    },
+    {
+      "id": 10124,
+      "name": "Milk, coconut, from can",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 5
+    },
+    {
+      "id": 10125,
+      "name": "Milk, soy, protein",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 5
+    },
+    {
+      "id": 10126,
+      "name": "Milk, soya, sweetened",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 5
+    },
+    {
+      "id": 10127,
+      "name": "Milk, coconut, long life, UHT",
+      "color": "y",
+      "maximumIntakeInGramms": 120,
+      "categoryId": 5
+    },
+    {
+      "id": 10128,
+      "name": "Milk, hemp",
+      "color": "y",
+      "maximumIntakeInGramms": 240,
+      "categoryId": 5
+    },
+    {
+      "id": 10129,
+      "name": "Oatmilk",
+      "color": "y",
+      "maximumIntakeInGramms": 30,
+      "categoryId": 5
+    },
+    {
+      "id": 10130,
+      "name": "Rice milk",
+      "color": "y",
+      "maximumIntakeInGramms": 200,
+      "categoryId": 5
+    },
+    {
+      "id": 10131,
+      "name": "Soymilk from beans",
+      "color": "y",
+      "maximumIntakeInGramms": 40,
+      "categoryId": 5
+    },
+    {
+      "id": 10132,
+      "name": "Milk, soya, unsweeteened, beans",
+      "color": "y",
+      "maximumIntakeInGramms": 30,
+      "categoryId": 5
+    },
+    {
+      "id": 10133,
+      "name": "Milk, soya, unsweeteened, hulled beans",
+      "color": "y",
+      "maximumIntakeInGramms": 60,
+      "categoryId": 5
+    },
+    {
+      "id": 10134,
+      "name": "Macademia",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 6
+    },
+    {
+      "id": 10135,
+      "name": "Peanut",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 6
+    },
+    {
+      "id": 10136,
+      "name": "Seeds, poppy, black",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 6
+    },
+    {
+      "id": 10137,
+      "name": "Seeds, poppy, white",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 6
+    },
+    {
+      "id": 10138,
+      "name": "Cashews",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 6
+    },
+    {
+      "id": 10139,
+      "name": "Pistachios",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 6
+    },
+    {
+      "id": 10140,
+      "name": "Almonds",
+      "color": "y",
+      "maximumIntakeInGramms": 12,
+      "categoryId": 6
+    },
+    {
+      "id": 10141,
+      "name": "Chestnuts",
+      "color": "y",
+      "maximumIntakeInGramms": 168,
+      "categoryId": 6
+    },
+    {
+      "id": 10142,
+      "name": "Chestnuts, roasted",
+      "color": "y",
+      "maximumIntakeInGramms": 84,
+      "categoryId": 6
+    },
+    {
+      "id": 10143,
+      "name": "Hazelnut",
+      "color": "y",
+      "maximumIntakeInGramms": 15,
+      "categoryId": 6
+    },
+    {
+      "id": 10144,
+      "name": "Nuts, Brazil",
+      "color": "y",
+      "maximumIntakeInGramms": 40,
+      "categoryId": 6
+    },
+    {
+      "id": 10145,
+      "name": "Pecan",
+      "color": "y",
+      "maximumIntakeInGramms": 20,
+      "categoryId": 6
+    },
+    {
+      "id": 10146,
+      "name": "Pine nuts",
+      "color": "y",
+      "maximumIntakeInGramms": 14,
+      "categoryId": 6
+    },
+    {
+      "id": 10147,
+      "name": "Seeds, chia",
+      "color": "y",
+      "maximumIntakeInGramms": 24,
+      "categoryId": 6
+    },
+    {
+      "id": 10148,
+      "name": "Seeds, chia, black",
+      "color": "y",
+      "maximumIntakeInGramms": 24,
+      "categoryId": 6
+    },
+    {
+      "id": 10149,
+      "name": "Seeds, chia, white",
+      "color": "y",
+      "maximumIntakeInGramms": 24,
+      "categoryId": 6
+    },
+    {
+      "id": 10150,
+      "name": "Seeds, egusi",
+      "color": "y",
+      "maximumIntakeInGramms": 24,
+      "categoryId": 6
+    },
+    {
+      "id": 10151,
+      "name": "Pumpkin seeds",
+      "color": "y",
+      "maximumIntakeInGramms": 23,
+      "categoryId": 6
+    },
+    {
+      "id": 10152,
+      "name": "Sesam",
+      "color": "y",
+      "maximumIntakeInGramms": 11,
+      "categoryId": 6
+    },
+    {
+      "id": 10153,
+      "name": "Sunflower seeds",
+      "color": "y",
+      "maximumIntakeInGramms": 6,
+      "categoryId": 6
+    },
+    {
+      "id": 10154,
+      "name": "Walnuts",
+      "color": "y",
+      "maximumIntakeInGramms": 30,
+      "categoryId": 6
+    },
+    {
+      "id": 10155,
+      "name": "Mince, quorn",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 7
+    },
+    {
+      "id": 10156,
+      "name": "Tofu, firm, drained",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 7
+    },
+    {
+      "id": 10157,
+      "name": "Tofu, plain",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 7
+    },
+    {
+      "id": 10158,
+      "name": "Falafel",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 7
+    },
+    {
+      "id": 10159,
+      "name": "Lentil burger",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 7
+    },
+    {
+      "id": 10160,
+      "name": "Tofu, silk",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 7
+    },
+    {
+      "id": 10161,
+      "name": "Tempeh, plain",
+      "color": "y",
+      "maximumIntakeInGramms": 100,
+      "categoryId": 7
+    },
+    {
+      "id": 10162,
+      "name": "Chana dal / Chana dahl, boiled",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10163,
+      "name": "Lentils, canned",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10164,
+      "name": "Urid dal / Urid dahl, boiled",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10165,
+      "name": "Baked beans",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10166,
+      "name": "Black beans, boiled",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10167,
+      "name": "Black beans, canned",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10168,
+      "name": "Borlotti beans, canned",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10169,
+      "name": "Broad beans",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10170,
+      "name": "Fava beans",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10171,
+      "name": "Haricot beans, boiled",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10172,
+      "name": "Navy beans, boiled",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10173,
+      "name": "Red kidney beans, boiled",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10174,
+      "name": "Soya beans, boiled",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10175,
+      "name": "Split peas, boiled",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 8
+    },
+    {
+      "id": 10176,
+      "name": "Butter beans, canned",
+      "color": "y",
+      "maximumIntakeInGramms": 35,
+      "categoryId": 8
+    },
+    {
+      "id": 10177,
+      "name": "Chickpeas, canned",
+      "color": "y",
+      "maximumIntakeInGramms": 42,
+      "categoryId": 8
+    },
+    {
+      "id": 10178,
+      "name": "Garbanzo beans, canned",
+      "color": "y",
+      "maximumIntakeInGramms": 42,
+      "categoryId": 8
+    },
+    {
+      "id": 10179,
+      "name": "Lentils, green, boiled",
+      "color": "y",
+      "maximumIntakeInGramms": 23,
+      "categoryId": 8
+    },
+    {
+      "id": 10180,
+      "name": "Lentils, red, boiled",
+      "color": "y",
+      "maximumIntakeInGramms": 23,
+      "categoryId": 8
+    },
+    {
+      "id": 10181,
+      "name": "Lima beans, boiled",
+      "color": "y",
+      "maximumIntakeInGramms": 39,
+      "categoryId": 8
+    },
+    {
+      "id": 10182,
+      "name": "Mung beans, boiled",
+      "color": "y",
+      "maximumIntakeInGramms": 53,
+      "categoryId": 8
+    },
+    {
+      "id": 10183,
+      "name": "Jaggery",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 9
+    },
+    {
+      "id": 10184,
+      "name": "Stevia, power",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 9
+    },
+    {
+      "id": 10185,
+      "name": "Zucker, brown",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 9
+    },
+    {
+      "id": 10186,
+      "name": "Sugar, palm",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 9
+    },
+    {
+      "id": 10187,
+      "name": "Sugar, raw",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 9
+    },
+    {
+      "id": 10188,
+      "name": "Sugar, white",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 9
+    },
+    {
+      "id": 10189,
+      "name": "Maple syrup",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 9
+    },
+    {
+      "id": 10190,
+      "name": "Rice syrup",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 9
+    },
+    {
+      "id": 10191,
+      "name": "Honey",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 9
+    },
+    {
+      "id": 10192,
+      "name": "Agave syrup",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 9
+    },
+    {
+      "id": 10193,
+      "name": "Syrup, agave, light",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 9
+    },
+    {
+      "id": 10194,
+      "name": "Syrup, golden",
+      "color": "y",
+      "maximumIntakeInGramms": 7,
+      "categoryId": 9
+    },
+    {
+      "id": 10195,
+      "name": "Treacle, coconut",
+      "color": "y",
+      "maximumIntakeInGramms": 14,
+      "categoryId": 9
+    },
+    {
+      "id": 10196,
+      "name": "Alfalfa",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10197,
+      "name": "Arigula",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10198,
+      "name": "Fresh bamboo shoots",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10199,
+      "name": "Bean sprouts",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10200,
+      "name": "Bell pepper, red",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10201,
+      "name": "Capsicum, red",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10202,
+      "name": "Carrot",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10203,
+      "name": "Celeriac",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10204,
+      "name": "Chili, green",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10205,
+      "name": "Chives",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10206,
+      "name": "Choy sum",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10207,
+      "name": "Collard greens",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10208,
+      "name": "Cucumber, common",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10209,
+      "name": "Endive, leaves",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10210,
+      "name": "Artichoke, entire",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10211,
+      "name": "Artichoke, internals",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10212,
+      "name": "Asparagus",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10213,
+      "name": "Bittermelon",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10214,
+      "name": "Cauliflower",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 10
+    },
+    {
+      "id": 10215,
+      "name": "Aubergine",
+      "color": "y",
+      "maximumIntakeInGramms": 41,
+      "categoryId": 10
+    },
+    {
+      "id": 10216,
+      "name": "Beans, green",
+      "color": "y",
+      "maximumIntakeInGramms": 86,
+      "categoryId": 10
+    },
+    {
+      "id": 10217,
+      "name": "Red beet",
+      "color": "y",
+      "maximumIntakeInGramms": 20,
+      "categoryId": 10
+    },
+    {
+      "id": 10218,
+      "name": "Bell pepper, green",
+      "color": "y",
+      "maximumIntakeInGramms": 52,
+      "categoryId": 10
+    },
+    {
+      "id": 10219,
+      "name": "Bok Choy",
+      "color": "y",
+      "maximumIntakeInGramms": 85,
+      "categoryId": 10
+    },
+    {
+      "id": 10220,
+      "name": "Broccoli",
+      "color": "y",
+      "maximumIntakeInGramms": 47,
+      "categoryId": 10
+    },
+    {
+      "id": 10221,
+      "name": "Brussel sprouts",
+      "color": "y",
+      "maximumIntakeInGramms": 38,
+      "categoryId": 10
+    },
+    {
+      "id": 10222,
+      "name": "Butternut squash",
+      "color": "y",
+      "maximumIntakeInGramms": 30,
+      "categoryId": 10
+    },
+    {
+      "id": 10223,
+      "name": "Cabbage, common",
+      "color": "y",
+      "maximumIntakeInGramms": 94,
+      "categoryId": 10
+    },
+    {
+      "id": 10224,
+      "name": "Cabbage, red",
+      "color": "y",
+      "maximumIntakeInGramms": 89,
+      "categoryId": 10
+    },
+    {
+      "id": 10225,
+      "name": "Cabbage, savoy",
+      "color": "y",
+      "maximumIntakeInGramms": 35,
+      "categoryId": 10
+    },
+    {
+      "id": 10226,
+      "name": "Capsicum, green",
+      "color": "y",
+      "maximumIntakeInGramms": 52,
+      "categoryId": 10
+    },
+    {
+      "id": 10227,
+      "name": "Cassava",
+      "color": "y",
+      "maximumIntakeInGramms": 69,
+      "categoryId": 10
+    },
+    {
+      "id": 10228,
+      "name": "Celery",
+      "color": "y",
+      "maximumIntakeInGramms": 12,
+      "categoryId": 10
+    },
+    {
+      "id": 10229,
+      "name": "Chayote / Choko",
+      "color": "y",
+      "maximumIntakeInGramms": 84,
+      "categoryId": 10
+    },
+    {
+      "id": 10230,
+      "name": "Chicory leaves",
+      "color": "y",
+      "maximumIntakeInGramms": 72,
+      "categoryId": 10
+    },
+    {
+      "id": 10231,
+      "name": "Chili, red",
+      "color": "y",
+      "maximumIntakeInGramms": 28,
+      "categoryId": 10
+    },
+    {
+      "id": 10232,
+      "name": "Cho cho",
+      "color": "y",
+      "maximumIntakeInGramms": 84,
+      "categoryId": 10
+    },
+    {
+      "id": 10233,
+      "name": "Corn, sweet",
+      "color": "y",
+      "maximumIntakeInGramms": 43,
+      "categoryId": 10
+    },
+    {
+      "id": 10234,
+      "name": "Courgette",
+      "color": "y",
+      "maximumIntakeInGramms": 66,
+      "categoryId": 10
+    },
+    {
+      "id": 10235,
+      "name": "Eggplant",
+      "color": "y",
+      "maximumIntakeInGramms": 41,
+      "categoryId": 10
+    },
+    {
+      "id": 10236,
+      "name": "Endive, bulb",
+      "color": "y",
+      "maximumIntakeInGramms": 49,
+      "categoryId": 10
+    },
+    {
+      "id": 10237,
+      "name": "Chicory",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 11
+    },
+    {
+      "id": 10238,
+      "name": "Water chestnuts",
+      "color": "y",
+      "maximumIntakeInGramms": 55,
+      "categoryId": 11
+    },
+    {
+      "id": 10239,
+      "name": "Yam",
+      "color": "y",
+      "maximumIntakeInGramms": 164,
+      "categoryId": 11
+    },
+    {
+      "id": 10240,
+      "name": "Yucca root",
+      "color": "y",
+      "maximumIntakeInGramms": 69,
+      "categoryId": 11
+    },
+    {
+      "id": 10241,
+      "name": "Zucchini",
+      "color": "y",
+      "maximumIntakeInGramms": 66,
+      "categoryId": 11
+    },
+    {
+      "id": 10242,
+      "name": "Galangal",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10243,
+      "name": "Ginger root",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10244,
+      "name": "Kale",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10245,
+      "name": "Salad, butter",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10246,
+      "name": "Iceberg lettuce",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10247,
+      "name": "Salad, red coral",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10248,
+      "name": "Salad, rocket",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10249,
+      "name": "Spring onion, green part",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10250,
+      "name": "Parsnip",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10251,
+      "name": "Potato",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10252,
+      "name": "Pumpkin, japanese",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10253,
+      "name": "Radish",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10254,
+      "name": "Silverbeet",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10255,
+      "name": "Squash, pattypan",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10256,
+      "name": "Swiss chard",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10257,
+      "name": "Tomato, normal",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10258,
+      "name": "Garlic",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10259,
+      "name": "Karela",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10260,
+      "name": "Leek, white",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10261,
+      "name": "Mushroom, button",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10262,
+      "name": "Mushroom, Portobello, fresh",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10263,
+      "name": "Mushroom, Shiitake",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10264,
+      "name": "Onions, shallots",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10265,
+      "name": "Onion",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10266,
+      "name": "Spring onion, white part",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10267,
+      "name": "White onion",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10268,
+      "name": "Peas, sugar snap",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10269,
+      "name": "Peas, thawed",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 12
+    },
+    {
+      "id": 10270,
+      "name": "Gai lan",
+      "color": "y",
+      "maximumIntakeInGramms": 68,
+      "categoryId": 12
+    },
+    {
+      "id": 10271,
+      "name": "Leek, green",
+      "color": "y",
+      "maximumIntakeInGramms": 28,
+      "categoryId": 12
+    },
+    {
+      "id": 10272,
+      "name": "Salat, radicchio",
+      "color": "y",
+      "maximumIntakeInGramms": 35,
+      "categoryId": 12
+    },
+    {
+      "id": 10273,
+      "name": "Mange, tout",
+      "color": "y",
+      "maximumIntakeInGramms": 17,
+      "categoryId": 12
+    },
+    {
+      "id": 10274,
+      "name": "Okra",
+      "color": "y",
+      "maximumIntakeInGramms": 60,
+      "categoryId": 12
+    },
+    {
+      "id": 10275,
+      "name": "Peas, snow",
+      "color": "y",
+      "maximumIntakeInGramms": 17,
+      "categoryId": 12
+    },
+    {
+      "id": 10276,
+      "name": "Sweet potato",
+      "color": "y",
+      "maximumIntakeInGramms": 70,
+      "categoryId": 12
+    },
+    {
+      "id": 10277,
+      "name": "Kürbis, butternut",
+      "color": "y",
+      "maximumIntakeInGramms": 30,
+      "categoryId": 12
+    },
+    {
+      "id": 10278,
+      "name": "Rutabagas",
+      "color": "y",
+      "maximumIntakeInGramms": 65,
+      "categoryId": 12
+    },
+    {
+      "id": 10279,
+      "name": "Baby spinach",
+      "color": "y",
+      "maximumIntakeInGramms": 38,
+      "categoryId": 12
+    },
+    {
+      "id": 10280,
+      "name": "Squash, spaghetti, cooked",
+      "color": "y",
+      "maximumIntakeInGramms": 155,
+      "categoryId": 12
+    },
+    {
+      "id": 10281,
+      "name": "Taro",
+      "color": "y",
+      "maximumIntakeInGramms": 82,
+      "categoryId": 12
+    },
+    {
+      "id": 10282,
+      "name": "Tomato, cherry",
+      "color": "y",
+      "maximumIntakeInGramms": 68,
+      "categoryId": 12
+    },
+    {
+      "id": 10283,
+      "name": "Tomato, roma",
+      "color": "y",
+      "maximumIntakeInGramms": 46,
+      "categoryId": 12
+    },
+    {
+      "id": 10284,
+      "name": "Chicory",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 13
+    },
+    {
+      "id": 10285,
+      "name": "Water chestnuts",
+      "color": "y",
+      "maximumIntakeInGramms": 55,
+      "categoryId": 13
+    },
+    {
+      "id": 10286,
+      "name": "Yam",
+      "color": "y",
+      "maximumIntakeInGramms": 164,
+      "categoryId": 13
+    },
+    {
+      "id": 10287,
+      "name": "Yucca root",
+      "color": "y",
+      "maximumIntakeInGramms": 69,
+      "categoryId": 13
+    },
+    {
+      "id": 10288,
+      "name": "Zucchini",
+      "color": "y",
+      "maximumIntakeInGramms": 66,
+      "categoryId": 13
+    },
+    {
+      "id": 10289,
+      "name": "Bamboo shoots, canned",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 14
+    },
+    {
+      "id": 10290,
+      "name": "Callaloo, tinned in brine",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 14
+    },
+    {
+      "id": 10291,
+      "name": "Edamame / frozen soybeans",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 14
+    },
+    {
+      "id": 10292,
+      "name": "Gherkins, in vinegar",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 14
+    },
+    {
+      "id": 10293,
+      "name": "Olives, black, pitted",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 14
+    },
+    {
+      "id": 10294,
+      "name": "Olives, green, pitted",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 14
+    },
+    {
+      "id": 10295,
+      "name": "Potato dumplings",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 14
+    },
+    {
+      "id": 10296,
+      "name": "Seaweed / nori",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 14
+    },
+    {
+      "id": 10297,
+      "name": "Onions, pickled",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 14
+    },
+    {
+      "id": 10298,
+      "name": "Mushroom, champignons, canned",
+      "color": "y",
+      "maximumIntakeInGramms": 110,
+      "categoryId": 14
+    },
+    {
+      "id": 10299,
+      "name": "Mushroom, Shiitake, dried",
+      "color": "y",
+      "maximumIntakeInGramms": 7,
+      "categoryId": 14
+    },
+    {
+      "id": 10300,
+      "name": "Pumpkin, canned",
+      "color": "y",
+      "maximumIntakeInGramms": 60,
+      "categoryId": 14
+    },
+    {
+      "id": 10301,
+      "name": "Red cabbage, fermented",
+      "color": "y",
+      "maximumIntakeInGramms": 70,
+      "categoryId": 14
+    },
+    {
+      "id": 10302,
+      "name": "Tomato, canned",
+      "color": "y",
+      "maximumIntakeInGramms": 92,
+      "categoryId": 14
+    },
+    {
+      "id": 10303,
+      "name": "Tomato, sun-dried, semi",
+      "color": "y",
+      "maximumIntakeInGramms": 8,
+      "categoryId": 14
+    },
+    {
+      "id": 10304,
+      "name": "White cabbage, Sauerkraut / fermented",
+      "color": "y",
+      "maximumIntakeInGramms": 20,
+      "categoryId": 14
+    },
+    {
+      "id": 10305,
+      "name": "Tea, black, weak",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10306,
+      "name": "Tea, buchu, strong",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10307,
+      "name": "Tea, buchu, weak",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10308,
+      "name": "Tea, chai, weak",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10309,
+      "name": "Tea, dandelion, weak",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10310,
+      "name": "Tea, green, strong",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10311,
+      "name": "Tea, honeybush, strong",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10312,
+      "name": "Tea, honeybush, weak",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10313,
+      "name": "Tea, peppermint, strong",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10314,
+      "name": "Tea, peppermint, weak",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10315,
+      "name": "Tea, rooibos, strong",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10316,
+      "name": "Tea, rooibos, weak",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10317,
+      "name": "Tea, white, strong",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10318,
+      "name": "Tea, chai, strong",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10319,
+      "name": "Tea, chamomille, strong",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10320,
+      "name": "Tea, chamomille, weak",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10321,
+      "name": "Tea, dandelion, strong",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10322,
+      "name": "Tea, fennel, strong",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10323,
+      "name": "Tea, fennel, weak",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10324,
+      "name": "Tea, herbal, strong",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10325,
+      "name": "Tea, oolong, strong",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10326,
+      "name": "Tea, oolong, weak",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 15
+    },
+    {
+      "id": 10327,
+      "name": "Tea, black, strong",
+      "color": "y",
+      "maximumIntakeInGramms": 180,
+      "categoryId": 15
+    },
+    {
+      "id": 10328,
+      "name": "Tea, herbal, weak",
+      "color": "y",
+      "maximumIntakeInGramms": 180,
+      "categoryId": 15
+    },
+    {
+      "id": 10329,
+      "name": "Beer",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 16
+    },
+    {
+      "id": 10330,
+      "name": "Gin",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 16
+    },
+    {
+      "id": 10331,
+      "name": "Vodka",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 16
+    },
+    {
+      "id": 10332,
+      "name": "Whiskey",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 16
+    },
+    {
+      "id": 10333,
+      "name": "Wine, red",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 16
+    },
+    {
+      "id": 10334,
+      "name": "Wine, sparkling",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 16
+    },
+    {
+      "id": 10335,
+      "name": "Wine, sweet",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 16
+    },
+    {
+      "id": 10336,
+      "name": "Wine, white",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 16
+    },
+    {
+      "id": 10337,
+      "name": "Wine, white, dry",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 16
+    },
+    {
+      "id": 10338,
+      "name": "Rum",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 16
+    },
+    {
+      "id": 10339,
+      "name": "Wine, low glycaemic index",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 16
+    },
+    {
+      "id": 10340,
+      "name": "Wine, sticky",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 16
+    },
+    {
+      "id": 10341,
+      "name": "Espresso, decaffeinated",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 17
+    },
+    {
+      "id": 10342,
+      "name": "Espresso, regular",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 17
+    },
+    {
+      "id": 10343,
+      "name": "Instant, decaffeinated",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 17
+    },
+    {
+      "id": 10344,
+      "name": "Instant, regular",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 17
+    },
+    {
+      "id": 10345,
+      "name": "Instant, white, Malaysia",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 17
+    },
+    {
+      "id": 10346,
+      "name": "Cocoa powder",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 18
+    },
+    {
+      "id": 10347,
+      "name": "Carob powder",
+      "color": "y",
+      "maximumIntakeInGramms": 6,
+      "categoryId": 18
+    },
+    {
+      "id": 10348,
+      "name": "Cocoa powder",
+      "color": "y",
+      "maximumIntakeInGramms": 8,
+      "categoryId": 18
+    },
+    {
+      "id": 10349,
+      "name": "Creamer powder",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 18
+    },
+    {
+      "id": 10350,
+      "name": "Protein supplement, plant-based",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 18
+    },
+    {
+      "id": 10351,
+      "name": "Apple & Raspberry, 50-100% real juice",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 19
+    },
+    {
+      "id": 10352,
+      "name": "Orange, 25-50% real juice",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 19
+    },
+    {
+      "id": 10353,
+      "name": "Cranberry juice",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 20
+    },
+    {
+      "id": 10354,
+      "name": "Apple, 99% real juice, reconstituted",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 20
+    },
+    {
+      "id": 10355,
+      "name": "Apple, 99% real juice, reconstituted, fresh",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 20
+    },
+    {
+      "id": 10356,
+      "name": "Orange, 98% real juice, reconstituted",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 20
+    },
+    {
+      "id": 10357,
+      "name": "Coconut water, fresh",
+      "color": "y",
+      "maximumIntakeInGramms": 100,
+      "categoryId": 20
+    },
+    {
+      "id": 10358,
+      "name": "Coconut water, packaged",
+      "color": "y",
+      "maximumIntakeInGramms": 100,
+      "categoryId": 20
+    },
+    {
+      "id": 10359,
+      "name": "Orange, 99% real juice, reconstituted, fresh",
+      "color": "y",
+      "maximumIntakeInGramms": 10,
+      "categoryId": 20
+    },
+    {
+      "id": 10360,
+      "name": "Flakes, corn (gluten free)",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10361,
+      "name": "Flakes, quinoa",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10362,
+      "name": "Flakes, rice, poha",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10363,
+      "name": "Oat flour, coarse, organic, Danish",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10364,
+      "name": "Oatmeal, coarse, organic, Danish (gluten free)",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10365,
+      "name": "Cereal, rice crisps",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10366,
+      "name": "Flakes, barley",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10367,
+      "name": "Flakes, rice, psyllium (gluten free)",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10368,
+      "name": "Flakes, spelt",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10369,
+      "name": "Flakes, spelt, organic",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10370,
+      "name": "Muesli (gluten-, wheat, dairy-, nut- free)",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10371,
+      "name": "Muesli (yeast-, wheat- free)",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10372,
+      "name": "Muesli, plain",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10373,
+      "name": "Wheat bran, pellets",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 21
+    },
+    {
+      "id": 10374,
+      "name": "Amaranth, puffed grain",
+      "color": "y",
+      "maximumIntakeInGramms": 10,
+      "categoryId": 21
+    },
+    {
+      "id": 10375,
+      "name": "Flakes, corn",
+      "color": "y",
+      "maximumIntakeInGramms": 15,
+      "categoryId": 21
+    },
+    {
+      "id": 10376,
+      "name": "Oatmeal, fine, organic, Danish",
+      "color": "y",
+      "maximumIntakeInGramms": 52,
+      "categoryId": 21
+    },
+    {
+      "id": 10377,
+      "name": "Oatmeal, fine, organic, Danish (gluten free)",
+      "color": "y",
+      "maximumIntakeInGramms": 52,
+      "categoryId": 21
+    },
+    {
+      "id": 10378,
+      "name": "Oats",
+      "color": "y",
+      "maximumIntakeInGramms": 60,
+      "categoryId": 21
+    },
+    {
+      "id": 10379,
+      "name": "Oats, quick, dry",
+      "color": "y",
+      "maximumIntakeInGramms": 23,
+      "categoryId": 21
+    },
+    {
+      "id": 10380,
+      "name": "Oats, rolled",
+      "color": "y",
+      "maximumIntakeInGramms": 52,
+      "categoryId": 21
+    },
+    {
+      "id": 10381,
+      "name": "Rice, puffed",
+      "color": "y",
+      "maximumIntakeInGramms": 15,
+      "categoryId": 21
+    },
+    {
+      "id": 10382,
+      "name": "Buckwheat, groats",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 22
+    },
+    {
+      "id": 10383,
+      "name": "Millet, hulled",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 22
+    },
+    {
+      "id": 10384,
+      "name": "Polenta / corn meal",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 22
+    },
+    {
+      "id": 10385,
+      "name": "Quinoa, black",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 22
+    },
+    {
+      "id": 10386,
+      "name": "Quinoa, red",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 22
+    },
+    {
+      "id": 10387,
+      "name": "Quinoa, white",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 22
+    },
+    {
+      "id": 10388,
+      "name": "Rice, basmati",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 22
+    },
+    {
+      "id": 10389,
+      "name": "Rice, normal",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 22
+    },
+    {
+      "id": 10390,
+      "name": "Rice, white",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 22
+    },
+    {
+      "id": 10391,
+      "name": "Barley, pearl",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 22
+    },
+    {
+      "id": 10392,
+      "name": "Spelt, kernels, green",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 22
+    },
+    {
+      "id": 10393,
+      "name": "Bourghal",
+      "color": "y",
+      "maximumIntakeInGramms": 44,
+      "categoryId": 22
+    },
+    {
+      "id": 10394,
+      "name": "Bran, oat, unprocessed",
+      "color": "y",
+      "maximumIntakeInGramms": 22,
+      "categoryId": 22
+    },
+    {
+      "id": 10395,
+      "name": "Bran, rice, unprocessed",
+      "color": "y",
+      "maximumIntakeInGramms": 16,
+      "categoryId": 22
+    },
+    {
+      "id": 10396,
+      "name": "Bran, wheat, processed",
+      "color": "y",
+      "maximumIntakeInGramms": 5,
+      "categoryId": 22
+    },
+    {
+      "id": 10397,
+      "name": "Bran, wheat, unprocessed",
+      "color": "y",
+      "maximumIntakeInGramms": 5,
+      "categoryId": 22
+    },
+    {
+      "id": 10398,
+      "name": "Buckwheat, kernels",
+      "color": "y",
+      "maximumIntakeInGramms": 27,
+      "categoryId": 22
+    },
+    {
+      "id": 10399,
+      "name": "Cous cous, rice and corn",
+      "color": "y",
+      "maximumIntakeInGramms": 37,
+      "categoryId": 22
+    },
+    {
+      "id": 10400,
+      "name": "Millet, kernels",
+      "color": "y",
+      "maximumIntakeInGramms": 125,
+      "categoryId": 22
+    },
+    {
+      "id": 10401,
+      "name": "Oat, flakes",
+      "color": "y",
+      "maximumIntakeInGramms": 50,
+      "categoryId": 22
+    },
+    {
+      "id": 10402,
+      "name": "Flour, buckwheat",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10403,
+      "name": "Flour, buckwheat, wholemeal",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10404,
+      "name": "Corn flour",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10405,
+      "name": "Flour, maize",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10406,
+      "name": "Flour, millet",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10407,
+      "name": "Quinoa flour",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10408,
+      "name": "Rice flour",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10409,
+      "name": "Rice flour, roasted",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10410,
+      "name": "Flour, sorghum",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10411,
+      "name": "Flour, spelt, organic, sieved",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10412,
+      "name": "Flour, teff",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10413,
+      "name": "Flour, yam, pounded",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10414,
+      "name": "Starch, corn",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10415,
+      "name": "Starch, maize",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10416,
+      "name": "Starch, potato",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10417,
+      "name": "Starch, tapioca",
+      "color": "g",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10418,
+      "name": "Amaranthmehl",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10419,
+      "name": "Flour, barley",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10420,
+      "name": "Flour, einkorn",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10421,
+      "name": "Einkornmehl",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10422,
+      "name": "Flour, emmer",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10423,
+      "name": "Flour, Khorasan (kamut), wholewheat flour",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10424,
+      "name": "Lupin flour",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10425,
+      "name": "Flour, rye",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10426,
+      "name": "Flour, spelt, organic",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10427,
+      "name": "Flour, spelt, white",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10428,
+      "name": "Flour, spelt, wholemeal",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10429,
+      "name": "Wheat flour",
+      "color": "r",
+      "maximumIntakeInGramms": 0,
+      "categoryId": 23
+    },
+    {
+      "id": 10430,
+      "name": "Almond flour",
+      "color": "y",
+      "maximumIntakeInGramms": 24,
+      "categoryId": 23
+    }
+  ]
+}
