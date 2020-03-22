@@ -34,7 +34,7 @@ const App: () => React$Node = () => {
   const [query, setQuery] = useState("");
   const results = performSearch(query);
 
-  const stickies = results.flatMap((item, index) => item.header ? [index] : []);
+  const stickies = results.flatMap((item, index) => item.header ? [index + 1] : []);
 
   const renderHeader = () => (
     <Layout
@@ -54,7 +54,7 @@ const App: () => React$Node = () => {
         <ApplicationProvider mapping={mapping} theme={theme} customMapping={customMapping}>
           <List
             style={styles.list}
-            ListHeaderComponent={renderHeader}
+            ListHeaderComponent={renderHeader()}
             stickyHeaderIndices={stickies}
             data={results}
             keyExtractor={item => item.id.toString()}
