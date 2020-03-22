@@ -3,93 +3,78 @@
  * @flow
  */
 
-import React, {useState} from 'react';
-import {FlatList} from 'react-native';
-import {Body, Badge, Button, Container, Header, Icon, Input, Item, ListItem, StyleProvider, Text, Left, Right} from 'native-base';
-import getTheme from './native-base-theme/components';
+import React, {Fragment, useState} from 'react';
+import {SafeAreaView} from 'react-native';
 
-import FuzzySearch from 'fuzzy-search';
+import {
+  ApplicationProvider,
+  Icon,
+  IconRegistry,
+  Input,
+  Layout,
+  List,
+  StyleService,
+  useStyleSheet
+} from '@ui-kitten/components';
 
-const {categories, foods} = require('./all_foods.json');
-const searcher = new FuzzySearch(foods, ['name'], { caseSensitive: false });
+import {FoodListItem} from "./FoodListItem";
 
-function performSearch(query) {
-  const trimmedQuery = query.trim();
-  const matchingFoods = trimmedQuery !== '' && trimmedQuery.length > 2 ? searcher.search(trimmedQuery) : foods;
+import {EvaIconsPack} from '@ui-kitten/eva-icons';
 
-  const byCategory = new Map();
+import {light as lightTheme, mapping} from '@eva-design/eva';
+import {default as appTheme} from './custom-theme.json';
+import {default as customMapping} from './custom-mapping.json';
+import {performSearch} from "./foodDatabase";
 
-  for (const food of matchingFoods) {
-    if (!byCategory.has(food.categoryId)) {
-      byCategory.set(food.categoryId, []);
-    }
-    byCategory.get(food.categoryId).push(food);
-  }
-
-  const results = [];
-
-  for (const [categoryId, items] of byCategory) {
-    items.sort((a, b) => a.name.localeCompare(b.name))
-
-    results.push({header: true, ...categories[categoryId], id: categoryId });
-
-    for (const item of items) {
-      results.push({header: false, ...item});
-    }
-  }
-
-  return results;
-}
-
-function advisory(item) {
-  switch (item.color) {
-    case 'r': return <Badge danger><Text>Avoid</Text></Badge>;
-    case 'g': return <Badge success><Text>No Limit</Text></Badge>;
-    case 'y': return <Badge warning><Text>In Moderation</Text></Badge>;
-    default:
-      console.log(item);
-      return <Text>Unknown</Text>;
-  }
-}
+const theme = {...lightTheme, ...appTheme}
 
 const App: () => React$Node = () => {
+  const styles = useStyleSheet(themedStyles);
+
   const [query, setQuery] = useState("");
   const results = performSearch(query);
 
   const stickies = results.flatMap((item, index) => item.header ? [index] : []);
 
+  const renderHeader = () => (
+    <Layout
+      style={styles.header}
+      level='1'>
+      <Input
+        value={query} onChangeText={setQuery} placeholder="Search"
+        icon={style => <Icon {...style} name="search"/>}
+      />
+    </Layout>
+  );
+
   return (
-    <StyleProvider style={getTheme()}>
-      <Container>
-        <Header searchBar rounded>
-          <Item>
-            <Icon name="ios-search"/>
-            <Input placeholder="Search" value={query} onChangeText={text => setQuery(text)}/>
-            <Icon name="ios-close" style={{width: 36}} onPress={() => setQuery("")} />
-          </Item>
-        </Header>
-        <FlatList
-          stickyHeaderIndices={stickies}
-          data={results}
-          keyExtractor={item => item.id.toString()}
-          renderItem={({item}) => (item.header ? <ListItem itemDivider>
-              <Body>
-                <Text style={{ fontWeight: "bold" }}>
-                  {item.name}
-                </Text>
-              </Body>
-            </ListItem> :
-              <ListItem icon>
-                <Body>
-                  <Text>{item.name}</Text>
-                </Body>
-                <Right>{advisory(item)}</Right>
-              </ListItem>
-          )}
-        />
-      </Container>
-    </StyleProvider>
+    <Fragment>
+      <IconRegistry icons={EvaIconsPack}/>
+      <SafeAreaView style={{flex: 1}}>
+        <ApplicationProvider mapping={mapping} theme={theme} customMapping={customMapping}>
+          <List
+            style={styles.list}
+            ListHeaderComponent={renderHeader}
+            stickyHeaderIndices={stickies}
+            data={results}
+            keyExtractor={item => item.id.toString()}
+            renderItem={({item}) => <FoodListItem item={item} />}
+          />
+        </ApplicationProvider>
+      </SafeAreaView>
+    </Fragment>
   );
 };
 
 export default App;
+
+const themedStyles = StyleService.create({
+  list: {
+    flex: 1
+  },
+  header: {
+    paddingHorizontal: 16,
+    paddingTop: 16,
+    paddingBottom: 8
+  }
+});
