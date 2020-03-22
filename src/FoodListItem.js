@@ -13,7 +13,7 @@ export const FoodListItem = (props) => {
       case 'g':
         return <Text status="success">No Limit</Text>;
       case 'y':
-        return <Text status="warning">In Moderation</Text>;
+        return <Text status="warning">Limited ({item.maximumIntakeInGramms} g)</Text>;
       default:
         return <Text>Unknown</Text>;
     }
